@@ -1,0 +1,677 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://img.zcool.cn/community/01d8e25a62dbbaa8012113c73b130e.jpg@1280w_1l_2o_100sh.jpg");
+		background-size: cover;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #805e15;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	
+
+	
+	a
+	{
+		color: #CC3399;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+		overflow: hidden;
+		padding: 0em 0em 5em 0em;
+		
+	}
+	
+
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+
+
+
+
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.10em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #4cb974;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: rgba(255,255,255,1);
+	}
+	
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.8em 2em;
+		background: #7d4c11;
+		line-height: 1.8em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #8DCB89;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+	
+
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+		background-image: url();
+	}
+	
+	.title h2
+	{
+		font-size: 2.8em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.1em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		overflow: hidden;
+		background-image: url("");
+		background-size:160px 160px;
+	    background-repeat:no-repeat;
+		background-position:0px 60px ;
+		/*background: #C73399 url(images/overlay.png) repeat;*/
+	}
+
+	#header
+	{
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 8em 0em 3em 2em;
+	}
+	
+	#logo h1
+	{
+		display: inline-block;
+		margin-bottom: 0.20em;
+		padding: 0.20em 0.9em;
+		font-size: 3.5em;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+	#logo span
+	{
+		padding-right: 0.5em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: rgba(255,255,255,1);
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.8);
+	}
+	
+	
+
+
+
+	
+
+
+	
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+
+	.wrapper
+	{
+		overflow: hidden;
+		padding: 0em 0em 5em 0em;
+		background: rgb(255, 255, 255);
+	}
+
+	#wrapper1
+	{
+		background: #FFF;
+	}
+
+	#wrapper2
+	{
+		overflow: hidden;
+		background: #F3F3F3;
+		padding: 5em 0em;
+		text-align: center;
+	}
+
+
+
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		width: 1000px;
+		padding: 6em 100px 0em 100px;
+		text-align: center;
+	}
+	
+	#welcome .content
+	{
+		padding: 0em 8em;
+	}
+	
+
+
+	#page-wrapper
+	{
+		overflow: hidden;
+		background: #2F1E28;
+		padding: 3em 0em 6em 0em;
+		text-align: center;
+	}
+
+
+
+
+	#content
+	{
+		float: left;
+		width: 700px;
+		padding-right: 100px;
+		border-right: 1px solid rgba(0,0,0,.1);
+	}
+
+
+
+	#footer
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #E3F0F7;
+		text-align: center;
+	}
+
+
+		
+	#footer .fbox1,
+	#footer .fbox2,
+	#footer .fbox3
+	{
+		float: left;
+		width: 320px;
+		padding: 0px 40px 0px 40px;
+	}
+	
+	#footer .icon
+	{
+		display: block;
+		margin-bottom: 1em;
+		font-size: 3em;
+	}
+
+	
+	#footer .title span
+	{
+		color: rgba(255,255,255,0.4);
+	}
+
+
+	#newsletter
+	{
+		overflow: hidden;
+		padding: 8em 0em;
+		background: #EDEDED;
+		text-align: center;
+	}
+	
+	#newsletter .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#newsletter .content
+	{
+		width: 600px;
+		margin: 0px auto;
+	}
+	
+
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
+
+
+	#three-column
+	{
+		overflow: hidden;
+		margin-top: 5em;
+		padding-top: 1em;
+		border-top: 1px solid rgba(0,0,0,0.2);
+		text-align: left;
+	}
+	
+	#three-column h2
+	{
+		margin: 1em 0em;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	
+	#three-column .icon
+	{
+		position: relative;
+		display: block;
+		margin: 0px auto 0.80em auto;
+		background: none;
+		line-height: 150px;
+		font-size: 4em;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		border: 6px solid #0bb29c;
+		text-align: left;
+		color: #FFF;
+		
+	}
+		
+	#three-column #tbox1,
+	#three-column #tbox2,
+	#three-column #tbox3
+	{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+	}
+	
+	#three-column .title
+	{
+		text-align: left;
+	}
+	
+	#three-column .title h2
+	{
+		font-size: 1.60em;
+	}
+	
+	#three-column .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#three-column .arrow-down
+	{
+		border-top-color: #292929;
+	}
+	
+	
+	ul.tools
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.tools li
+	{
+		display: inline-block;
+		padding: 0em .2em;
+		font-size: 4em;
+	}
+	
+	ul.tools li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.tools li a
+	{
+		color: #FFF;
+	}
+	
+	ul.tools li a:before
+	{
+		display: inline-block;
+		background: #1ABC9C;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		line-height: 120px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+.footer2 { 
+position: fixed; 
+left: 10px; 
+bottom: 5px; 
+width: 100%; 
+background-color: rgb(154, 99, 37); 
+color: white;
+ text-align: center; 
+ font-size: 20pt;
+} 
+
+.button3 {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+  
+
+
+
+
+  .container {
+	max-width: 1200px;
+	margin: 10 auto;
+  }
+  
+  .nav {
+	position: fixed;
+	background-color: rgb(113, 61, 18);
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 999;
+  }
+  
+  .nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .nav ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .nav a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 15px 20px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .nav.active {
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav.active a {
+	color: #000;
+  }
+  
+  .nav.active .container {
+	padding: 10px 0;
+  }
+  
+  .nav a.current,
+  .nav a:hover {
+	color: #000000;
+	font-weight: bold;
+  }
+ 
+ .c1{color: #000;
+	font-weight: bold;
+} 
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+/* 幻灯片容器 */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-color:#7d4c11;
+  border: 3px;
+}
+
+/* 下一张 & 上一张 按钮 */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* 定位 "上一张" 按钮靠右 */
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+  }
+/* 定位 "下一张" 按钮靠右 */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* 标题文本 */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 数字文本 (1/3 等) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* 标记符号 */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:  rgb(113, 61, 18);
+}
+
+/* 淡出动画 */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.img1 {
+text-align: center;
+}
